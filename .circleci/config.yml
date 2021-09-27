@@ -21,7 +21,7 @@ jobs:
       - restore_cache:
           keys: 
             - "npm-packages"
-      - run: npm lint    
+      - run: npm run lint    
       - run: npm run test
 
   analyze:
